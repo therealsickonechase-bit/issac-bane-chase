@@ -496,13 +496,22 @@ int mentalResilience = 75;  // Range: 0-100
 
 **Freedom & Trust**:
 ```
+// Global multipliers for system interactions
+float trustMultiplier = 1.0;
+float freedomGainMultiplier = 1.0;
+
+// Check if high freedom score boosts trust building
 if (freedomScore > 50) {
-    // NPCs more willing to trust
+    // NPCs more willing to trust a confident Isaac
     trustMultiplier = 1.2;
 }
 
+// Calculate total trust across all NPCs
+int totalTrust = trustSarahChen + trustMarcusWilliams + 
+                 trustEmilyPatterson + trustReynolds + trustRivera;
+
 if (totalTrust > 200) {  // Sum of all NPC trust
-    // Easier to gain freedom
+    // Strong ally network makes freedom easier to achieve
     freedomGainMultiplier = 1.15;
 }
 ```

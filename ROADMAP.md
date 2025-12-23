@@ -255,11 +255,23 @@
 - Project management (Trello/Notion)
 
 ### Budget Considerations (if outsourcing)
-- Art assets: Variable
-- Audio (music/SFX): Variable  
-- Voice acting (optional): Variable
-- Marketing: Variable
-- Distribution: Minimal (itch.io is free)
+- **Art assets**: $500-$3,000 (depends on style, complexity, number of assets)
+  - Character sprites: $50-200 per character
+  - Backgrounds: $100-300 per scene
+  - UI elements: $200-500 total
+- **Audio (music/SFX)**: $300-$2,000
+  - Background music: $100-500 per track (5-7 tracks)
+  - Sound effects: $5-20 per effect or $200-400 for packs
+- **Voice acting** (optional): $500-$5,000+
+  - Professional voice actors: $100-500 per character
+  - Recording/editing: $300-1,000
+- **Marketing**: $100-$1,000
+  - Trailer production: $200-500
+  - Press kit and promotional materials: $100-300
+  - Ads (optional): $200+ depending on campaign
+- **Distribution**: Minimal
+  - itch.io: Free (with optional revenue share)
+  - Steam: $100 one-time fee (if pursuing that platform)
 
 ---
 
