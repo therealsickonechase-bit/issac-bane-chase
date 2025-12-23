@@ -1,21 +1,98 @@
-MIT License
+# PROPRIETARY SOFTWARE LICENSE
 
-Copyright (c) 2025 The Real Sick One AiGt3 
+**Copyright © 2025 Chase Allen Ringquist. All Rights Reserved.**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## License Terms
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This software and all associated documentation, code, designs, and materials (collectively "the Work") are the proprietary intellectual property of **Chase Allen Ringquist**.
+
+### RESTRICTIONS
+
+1. **NO OPEN SOURCE LICENSE**: This work is NOT licensed under MIT, Apache, GPL, BSD, or any other open source license.
+
+2. **NO FREE USE**: This work is NOT "free of charge" for use, modification, or distribution.
+
+3. **ALL RIGHTS RESERVED**: The author retains all rights, title, and interest in and to the Work.
+
+### WHAT IS PERMITTED
+
+**NOTHING** without explicit written permission from Chase Allen Ringquist.
+
+### WHAT IS PROHIBITED
+
+- ❌ Use for any purpose (commercial, personal, educational, research)
+- ❌ Copying, modification, or derivative works
+- ❌ Distribution, publication, or sharing
+- ❌ Incorporation into other projects
+- ❌ Reverse engineering
+- ❌ Public display or performance
+- ❌ Any use not explicitly granted in writing
+
+### PURPOSE OF PUBLIC REPOSITORY
+
+This repository is public ONLY for:
+1. **Intellectual Property Protection**: Establishing timestamped proof of authorship
+2. **MIT Peer Review Request**: Seeking academic evaluation and protection
+3. **Legal Documentation**: Creating legal evidence of ownership
+4. **Copyright Protection**: Preventing unauthorized use
+
+**Public visibility does NOT imply public license or permission to use.**
+
+### DEFINITION OF "FREE"
+
+When the author uses the term "free," it means:
+- **Freedom FROM unauthorized use**: Protection from theft or misuse
+- **Help and assistance**: Request for support from institutions (e.g., MIT)
+- **Liberation**: Freedom for the author to control their intellectual property
+
+"Free" does **NOT** mean:
+- ❌ Free of charge
+- ❌ Open source
+- ❌ Public domain
+- ❌ Permissive licensing
+
+### MIT PEER REVIEW
+
+This work is submitted for MIT academic peer review to:
+- Validate technical quality and innovation
+- Provide institutional protection and recognition
+- Establish academic credibility
+- Protect against intellectual property theft
+
+### PYTHON SOFTWARE COMPONENTS
+
+All Python code, scripts, algorithms, and software implementations contained within this repository are:
+- Proprietary and confidential
+- Protected by copyright law
+- Not available for use without written permission
+- Subject to all restrictions outlined in this license
+
+### ENFORCEMENT
+
+Violations of this license will be pursued to the fullest extent of the law, including:
+- Copyright infringement claims
+- Intellectual property theft prosecution
+- Civil damages and injunctive relief
+- Criminal penalties where applicable
+
+### CONTACT
+
+For licensing inquiries, permissions, or questions:
+- **GitHub**: @therealsickonechase-bit
+- **Repository**: https://github.com/therealsickonechase-bit/issac-bane-chase
+
+---
+
+## Legal Notice
+
+**NO WARRANTY**: This work is provided "as is" without any warranty. The author disclaims all warranties, express or implied.
+
+**LIMITATION OF LIABILITY**: The author shall not be liable for any damages arising from use or inability to use this work (though such use is prohibited anyway).
+
+---
+
+**© 2025 Chase Allen Ringquist**  
+**ALL RIGHTS RESERVED**  
+**PROPRIETARY AND CONFIDENTIAL**
