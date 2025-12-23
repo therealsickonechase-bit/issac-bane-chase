@@ -255,23 +255,34 @@
 - Project management (Trello/Notion)
 
 ### Budget Considerations (if outsourcing)
+
+**Note**: These are estimates for indie/hobbyist rates. Professional studio rates can be 2-5x higher.
+
 - **Art assets**: $500-$3,000 (depends on style, complexity, number of assets)
-  - Character sprites: $50-200 per character
+  - Character sprites: $50-200 per character (indie artists)
   - Backgrounds: $100-300 per scene
   - UI elements: $200-500 total
 - **Audio (music/SFX)**: $300-$2,000
-  - Background music: $100-500 per track (5-7 tracks)
+  - Background music: $100-500 per track (5-7 tracks) from indie composers
   - Sound effects: $5-20 per effect or $200-400 for packs
-- **Voice acting** (optional): $500-$5,000+
-  - Professional voice actors: $100-500 per character
-  - Recording/editing: $300-1,000
-- **Marketing**: $100-$1,000
-  - Trailer production: $200-500
-  - Press kit and promotional materials: $100-300
-  - Ads (optional): $200+ depending on campaign
+- **Voice acting** (optional): $2,000-$10,000+
+  - Professional voice actors: $300-500 per hour (industry standard)
+  - Estimated 15-20 hours total for full voice work
+  - Amateur/indie voice actors: $100-200 per character (budget option)
+  - Recording/editing: $500-1,500
+  - Note: Voice acting is optional; many successful narrative games use text-only
+- **Marketing**: $200-$2,000
+  - Trailer production: $300-800 (professional editing)
+  - Press kit and promotional materials: $200-500
+  - Ads (optional): $500+ depending on campaign
 - **Distribution**: Minimal
   - itch.io: Free (with optional revenue share)
   - Steam: $100 one-time fee (if pursuing that platform)
+  
+**Budget Tiers**:
+- **Minimal** (DIY everything): $100-500 (tools and distribution only)
+- **Indie** (selective outsourcing): $2,000-$8,000
+- **Professional** (full outsourcing): $10,000-$30,000+
 
 ---
 

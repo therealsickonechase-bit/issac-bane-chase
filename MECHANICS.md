@@ -547,6 +547,20 @@ if (currentTime == NIGHT && alertLevel < 50) {
 
 ### Win Condition Check
 ```
+// Helper function to check if player has required items for escape
+bool hasRequiredItems() {
+    // At minimum, player needs either a key card or alternative escape tool
+    bool hasAccessItem = (hasItem("Level3KeyCard") || 
+                          hasItem("MasterKeyCard") || 
+                          hasItem("GuardUniform"));
+    
+    // And evidence to accomplish complete freedom ending
+    bool hasEvidence = discoveredDocuments.Count(true) >= 10;
+    
+    return hasAccessItem && hasEvidence;
+}
+
+// Main escape attempt check
 bool canAttemptEscape() {
     return freedomScore >= 75 &&
            (trustSarahChen >= 75 || trustMarcusWilliams >= 75) &&

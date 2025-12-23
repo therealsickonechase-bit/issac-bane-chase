@@ -155,7 +155,11 @@ The game explores freedom on multiple levels:
 - **Platform**: PC (Windows/Linux)
 - **Estimated Playtime**: 3-5 hours per playthrough
 - **Development Time**: 27-37 weeks (approximately 7-9 months)
-- **Team Size**: 1-8 people (scalable based on resources)
+- **Team Size**: 
+  - **Minimum viable**: 1-2 people (solo dev or dev + artist)
+  - **Recommended**: 3-5 people (designer, programmer, artist, writer, sound designer)
+  - **Optimal**: 6-8 people (adds dedicated QA testers and additional artists)
+  - **Scalable**: Can work with any size; larger teams enable faster development
 
 ## Next Steps
 
