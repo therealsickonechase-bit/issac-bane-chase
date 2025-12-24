@@ -501,12 +501,13 @@ class OptimizedInventory:
         return self.items.get(item_id)
     
     def remove_item(self, item_name):
-        """O(1) average case removal"""
+        """Remove item - O(n) worst case due to list removal, but
+        with max 5 slots, effectively constant time in practice."""
         item_id = self.item_lookup.get(item_name.lower())
         if item_id:
-            item = self.items.pop(item_id)
-            self.slot_order.remove(item_id)
-            del self.item_lookup[item_name.lower()]
+            item = self.items.pop(item_id)  # O(1)
+            self.slot_order.remove(item_id)  # O(n) but n ≤ 5
+            del self.item_lookup[item_name.lower()]  # O(1)
             return item
         return None
     
@@ -597,14 +598,22 @@ class OptimizedResilienceSystem:
 
 ## Summary of Performance Gains
 
-| System | Optimization | Before | After | Improvement |
-|--------|--------------|--------|-------|-------------|
-| Freedom Meter | State caching | 1-2ms/frame | 0.05ms/frame | 95% faster |
-| Detection | Spatial partitioning | 50ms/frame | 0.5ms/frame | 100x faster |
-| Trust | Lazy evaluation | 5ms/check | 0.05ms/check | 100x faster |
-| Time System | Priority queue | O(n) | O(log n) | 10-100x faster |
-| Inventory | Hash lookup | O(n) | O(1) | n times faster |
-| Resilience | Effect caching | 2ms/check | 0.01ms/check | 200x faster |
+### Timing Improvements
+
+| System | Optimization | Before (ms) | After (ms) | Improvement |
+|--------|--------------|-------------|------------|-------------|
+| Freedom Meter | State caching | 1-2 per frame | 0.05 per frame | 95% faster |
+| Detection | Spatial partitioning | 50 per frame | 0.5 per frame | 100x faster |
+| Trust | Lazy evaluation | 5 per check | 0.05 per check | 100x faster |
+| Resilience | Effect caching | 2 per check | 0.01 per check | 200x faster |
+
+### Algorithmic Complexity Improvements
+
+| System | Optimization | Before | After | Scaling Impact |
+|--------|--------------|--------|-------|----------------|
+| Time System | Priority queue | O(n) insert | O(log n) insert | 10-100x with many events |
+| Inventory | Hash lookup | O(n) search | O(1) search | Constant regardless of items |
+| Detection | Spatial grid | O(n) NPCs | O(k) nearby | k << n for large worlds |
 
 **Overall Impact:** 60 FPS → maintains 60 FPS with 10x more game objects
 

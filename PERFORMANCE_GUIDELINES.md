@@ -165,7 +165,11 @@ class DetectionSystem:
                 self.alert_level += 1
     
     def _fast_distance(self, pos1, pos2):
-        """Use squared distance to avoid expensive sqrt"""
+        """Calculate squared distance to avoid expensive sqrt.
+        
+        Returns squared distance - callers must compare against
+        squared thresholds (e.g., range**2 instead of range).
+        """
         dx = pos1[0] - pos2[0]
         dy = pos1[1] - pos2[1]
         return dx * dx + dy * dy
