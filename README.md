@@ -37,6 +37,16 @@ This repository serves as:
 4. Request for MIT academic peer review
 5. Legal documentation of ownership
 
+### Performance Documentation
+
+Performance optimization guidelines for the game systems described in [AUTHOR.md](AUTHOR.md):
+
+- **[PERFORMANCE_ANALYSIS_SUMMARY.md](PERFORMANCE_ANALYSIS_SUMMARY.md)** - Executive summary of analysis and recommendations
+- **[PERFORMANCE_GUIDELINES.md](PERFORMANCE_GUIDELINES.md)** - General Python optimization best practices
+- **[OPTIMIZATION_RECOMMENDATIONS.md](OPTIMIZATION_RECOMMENDATIONS.md)** - System-specific optimization strategies
+
+These documents provide proactive performance guidance for future implementation, covering all 7 game systems with production-ready code examples and measurable performance targets.
+
 See [LICENSE](LICENSE), [AUTHOR.md](AUTHOR.md), and [PROTECTION.md](PROTECTION.md) for complete details.
 
 **For permissions or inquiries**: Contact @therealsickonechase-bit
