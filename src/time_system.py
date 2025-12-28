@@ -6,7 +6,6 @@ This module implements the time management and wait functionality for the game.
 """
 
 from enum import Enum
-from typing import Optional
 
 
 class TimeOfDay(Enum):
@@ -89,10 +88,14 @@ class TimeSystem:
         self.current_hour += hours
         
         # Handle day transitions
+        days_crossed = 0
         while self.current_hour >= 24:
             self.current_hour -= 24
             self.current_day += 1
-            # Reset action points at start of new day
+            days_crossed += 1
+        
+        # Reset action points only once if we crossed into a new day
+        if days_crossed > 0:
             self.action_points = self.max_action_points
         
         hours_passed = hours
